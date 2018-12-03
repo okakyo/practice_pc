@@ -1,3 +1,5 @@
+/*これは、フィボナッチ数列のメモ再帰化させたものである。*/
+
 #include<cstdio>
 
 iusing namespace std;
