@@ -1,8 +1,10 @@
 #include<cstdio>
+
 using namespace std;
+
+void 
+
 int main(){
-	int n;
-	scanf("%d",&n);
-	printf("%d",n);
+
 return 0;
 }
