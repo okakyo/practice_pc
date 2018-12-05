@@ -1,0 +1,9 @@
+def quicksort(arr):
+    if not arr: return arr
+    x=arr[0]
+    left =quicksort([i  for i in arr if i<x]) 
+    right=quicksort([i  for i in arr if i>=x])
+    return left+[x]+right
+if __name__=="__main__":
+    Data=[1,5,1,7,8,2,3]
+    print(quicksort(Data))
