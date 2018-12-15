@@ -4,10 +4,11 @@
 #include<vector>
 #include<map>
 
-
 using namespace std;
 
-void  
+typedef long long ll;
+typedef Pair<int,int > P;
+typedef 
 
 int main(){
 
