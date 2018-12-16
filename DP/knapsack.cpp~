@@ -17,8 +17,6 @@ return res;
 }
 
 int main(){
-	scanf("%d%d",&n,&W);
-
 printf("%d\n",rec(0,W));
 return 0;
 }
