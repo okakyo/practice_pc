@@ -1,7 +1,7 @@
 #include<iostream>
 #include<algorithm>
 
-#define MAX_N=100
+#define MAX_N 100
 #define MAX_W 10000
 
 using namespace std;
