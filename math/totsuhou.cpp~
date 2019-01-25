@@ -16,6 +16,7 @@ vector<P> convex_hull(P* ps,int n){
 	sort(ps,ps+n,cmp_x);
 	int k=0;
 	vector<P> qs(n*2);
+	
 	//‰º‘¤‚Ì“Ê•ï‚Ìì¬
 	
 	for(int i=0;i<n;i++){
@@ -41,8 +42,6 @@ P ps[MAX_N];
 
 int main(){
 	scanf("%d",N);
-	for(int i=0;i<N;i++)
-		scanf("%d",ps[i]);
 	vector<P> qs=convert_hull(ps,N);
 	double res=0;
 	for(int i=0;i<qs.size();i++)
